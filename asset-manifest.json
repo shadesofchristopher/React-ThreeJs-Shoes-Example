@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-ThreeJs-Shoes-Example/static/css/main.080d03fb.css",
+    "main.js": "/React-ThreeJs-Shoes-Example/static/js/main.e4024de3.js",
+    "index.html": "/React-ThreeJs-Shoes-Example/index.html",
+    "main.080d03fb.css.map": "/React-ThreeJs-Shoes-Example/static/css/main.080d03fb.css.map",
+    "main.e4024de3.js.map": "/React-ThreeJs-Shoes-Example/static/js/main.e4024de3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.080d03fb.css",
+    "static/js/main.e4024de3.js"
+  ]
+}
