@@ -1,0 +1,74 @@
+@import url("https://rsms.me/inter/inter.css");
+
+html,
+body,
+#root {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  outline: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+    background: linear-gradient(-90deg, #ffffff, #fdc7c7, #fb7979, #fb3737);
+	background-size: 200% 250%;
+	animation: gradient 30s ease infinite;
+	height: 100vh;
+    font-family: "Inter var", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#root {
+  width: 76ch;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  left: -160px;
+  padding: 0;
+  margin: 180px;
+  font-size: 4em;
+  font-weight: 500;
+  line-height: 0.7em;
+  letter-spacing: -6px;
+  color: #ffffff;
+}
+
+h2 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    padding: 0;
+    margin: 40px;
+    font-size: 4em;
+    font-weight: 500;
+    line-height: 0.6em;
+    letter-spacing: -4px;
+    text-align: center;
+    color: #010020;
+  }
+
+.picker {
+  position: absolute !important;
+  top: 80px;
+  left: 50px;
+  width: 90px !important;
+  height: 90px !important;
+}
